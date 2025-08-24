@@ -1,4 +1,9 @@
 # MyMoment4App
+This is an app showing university courses, searchable by phrase and the courses are able to be sorted in ascending or descending order. The functionality is made using Angular with TypeScript, and makes HTTP-calls to get data from this web service: https://webbutveckling.miun.se/files/ramschema.json
+
+Displaying and sorting data is made using Signals and data binding with Angular
+
+
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.6.
 

@@ -1,3 +1,4 @@
+//Service to get courses from web service
 import { inject, Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -16,7 +17,5 @@ export class CourseService {
     return this.http.get<Courses[]>(this.url);
   }
 
-//add Course
-addCourse(course: Courses): Observable<Courses> {
-  return this.http.post<Courses>(this.url, course); }}
+}
 

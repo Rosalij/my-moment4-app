@@ -1,9 +1,9 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Courses } from './courses';
+import { Course } from './courses';
 
 describe('Courses', () => {
-  let component: Courses;
+  let component: Course;
   let fixture: ComponentFixture<Courses>;
 
   beforeEach(async () => {
